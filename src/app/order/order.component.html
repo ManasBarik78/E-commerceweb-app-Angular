@@ -1,0 +1,48 @@
+<app-header></app-header>
+<!-- <div class="container">
+    <div class="row row-cols-1 row-cols-md-8 g-4 mt-3">
+        <div class="col card" style="flex-direction: row;">
+            <div class=" h-100">
+                <img src="https://img.freepik.com/free-psd/futuristic-glow-t…ect-psd-editable-template_53876-115831.jpg?w=2000"
+                    class="card-img-top" alt="..." style="width: 240px;">
+            </div>
+            <div>
+                <div class="card-body px-2 py-2 p-0">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <div class="border-top">
+                        <small>Update 2min ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+<div *ngIf="AllbuyItem.length>0;then cartvalue;else notFound"></div>
+<ng-template #notFound>
+    <h1>cart item not found</h1>
+</ng-template>
+<ng-template #cartvalue>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-8 g-4 mt-3">
+            <div class="col card" style="flex-direction: row;" *ngFor="let item of AllbuyItem;">
+                <div class=" h-100">
+                    <img [src]="item.item.productImage"
+                        class="card-img-top" alt="..." style="width: 240px;">
+                </div>
+                <div>
+                    <div class="card-body px-2 py-2 p-0">
+                        <h5 class="card-title">{{item.item.productName}}</h5>
+                        <p class="card-text">{{item.item.productDescription}}</p>
+                        <div class="border-top">
+                            <small>{{item.item.productPrice}}</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-template>

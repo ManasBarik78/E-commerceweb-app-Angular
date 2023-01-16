@@ -1,0 +1,20 @@
+<div class="row justify-content-center">
+  <div class="col-sm-12 col-md-3 m-2" *ngFor="let item of products">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" [src]="item.productImage" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{item.productName}}</h5>
+        <p class="card-text">{{item.productDescription}}</p>
+        <p class="card-text">{{item.productPrice | currency:"INR"}}</p>
+      </div>
+      <div class="card-body row justify-content-between">
+        <button class="btn btn-primary col-5" (click)="buy(item,1)">Order</button>
+        <button class="btn btn-primary col-5" (click)="addToCart(item,2)">Add to cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toaster" [ngClass]="message === '' ? 'd-none' : '' ">
+  <h4>{{message}}</h4>
+</div>

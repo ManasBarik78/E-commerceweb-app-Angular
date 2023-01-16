@@ -1,0 +1,22 @@
+header {
+    background-color: rgb(5, 108, 143);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1.01rem;
+    color: #fff;   
+}
+
+h1 a{
+    text-decoration: none;
+    color: #fff;
+    /* text-transform: uppercase; */
+}
+.active{
+    color: red;
+}

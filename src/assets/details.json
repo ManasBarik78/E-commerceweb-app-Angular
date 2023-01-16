@@ -1,0 +1,87 @@
+[
+    {
+        "productId": 1,
+        "productName": "Iphone",
+        "productPrice": 70000,
+        "productDescription": "An apple mobile which is nothing like apple",
+        "productImage": "https://i.dummyjson.com/data/products/1/1.jpg"
+    },
+    {
+        "productId": 2,
+        "productName": "Infinix",
+        "productPrice": 35600,
+        "productDescription": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey",
+        "productImage": "https://i.dummyjson.com/data/products/9/1.jpg"
+    },
+    {
+        "productId": 3,
+        "productName": "HP pavilion",
+        "productPrice": 95800,
+        "productDescription": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5",
+        "productImage": "https://i.dummyjson.com/data/products/10/1.jpg"
+    },
+    {
+        "productId": 4,
+        "productName": "Key Chain",
+        "productPrice": 1500,
+        "productDescription": "Attractive DesignMetallic materialFour key hooksReliable",
+        "productImage": "https://i.dummyjson.com/data/products/30/1.jpg"
+    }
+    ,
+    {
+        "productId": 5,
+        "productName": "Bake Parlor Big",
+        "productPrice": 25000,
+        "productDescription": "Product details of Bake Parlor Big Elbow Macaroni - 400 gm",
+        "productImage": "https://i.dummyjson.com/data/products/22/1.jpg"
+    },
+    {
+        "productId": 6,
+        "productName": "fragrances",
+        "productPrice": 3000,
+        "productDescription": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate ",
+        "productImage": "https://i.dummyjson.com/data/products/14/1.jpg"
+    },
+    {
+        "productId": 7,
+        "productName": "groceries",
+        "productPrice": 11200,
+        "productDescription": "Attractive DesignMetallic materialFour key hooksReliable",
+        "productImage": "https://i.dummyjson.com/data/products/22/1.jpg"
+    },
+    {
+        "productId": 8,
+        "productName": "OPPO",
+        "productPrice": 29000,
+        "productDescription": "OPPO F19 is officially announced on April 2023",
+        "productImage": "https://i.dummyjson.com/data/products/4/1.jpg"
+    },
+    {
+        "productId": 9,
+        "productName": "Huawei",
+        "productPrice": 45000,
+        "productDescription": "Huawei’s re-badged P30 Pro New Edition was officially unveiled",
+        "productImage": "https://i.dummyjson.com/data/products/5/1.jpg"
+    },
+    {
+        "productId": 10,
+        "productName": "Apple",
+        "productPrice": 67400,
+        "productDescription": "An apple mobile which is nothing like apple",
+        "productImage": "https://i.dummyjson.com/data/products/1/1.jpg"
+    },
+    {
+        "productId": 11,
+        "productName": "Flying Wooden",
+        "productPrice": 45000,
+        "productDescription": "Package Include 6 Birds with Adhesive Tape Shape: 3D ",
+        "productImage": "https://i.dummyjson.com/data/products/27/1.jpg"
+    },
+    {
+        "productId": 12,
+        "productName": "MacBook",
+        "productPrice": 147000,
+        "productDescription": "MacBook Pro 2023 with mini-LED display",
+        "productImage": "https://i.dummyjson.com/data/products/6/1.png"
+    }
+]

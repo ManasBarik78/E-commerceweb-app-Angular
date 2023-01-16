@@ -1,0 +1,36 @@
+<app-header></app-header>
+
+<div class="container">
+  <div class="row justify-content-center mt-5">
+    <div class="CartContainer">
+      <div class="Header">
+        <h3 class="Heading">Shopping Cart</h3>
+      </div>
+      <div *ngIf="AllcartItem.length !=0 ; else noItem">
+        <div class="Cart-Items" *ngFor="let item of AllcartItem;">
+          <div class="image-box">
+            <img [src]="item.item.productImage" />
+          </div>
+          <div class="about">
+            <h1 class="title">{{item.item.productName}}</h1>
+            <h3 class="subtitle">{{item.item.productDescription}}</h3>
+          </div>
+          <div class="counter">
+            <div class="btn" (click)="increaseQuantity(item)">+</div>
+            <div class="count">{{item.quantity}}</div>
+            <div class="btn" (click)="decraeseQuantity(item)">-</div>
+          </div>
+          <div class="prices">
+            <div class="amount">{{item.item.productPrice | currency:'INR' | multiplePrice:item.item.productPrice:item.quantity  }}</div>
+          </div>
+          <div>
+            <button class="b" (click)="removeCartItem(item)">Remove</button>
+          </div>
+        </div>
+      </div>
+      <ng-template #noItem>
+        <h2 style="text-align: center;">No item found</h2>
+      </ng-template>
+    </div>
+  </div>
+</div>
