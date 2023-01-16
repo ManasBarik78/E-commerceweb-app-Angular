@@ -37,7 +37,8 @@ To run this project run
 
 ```bash
   clone the project from my github account 
-  install angular and the run the command
+  install angular and in project root directory run npm install for download all node package required for the project
+  then run the command
   ng serve --open
 ```
 
